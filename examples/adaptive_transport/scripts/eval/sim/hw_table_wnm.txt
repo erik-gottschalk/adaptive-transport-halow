@@ -1,0 +1,8 @@
+# sim_opt HW_TABLE, WNM sleep between reports (analyze_deep_sleep.py): energies measured at
+# p = 0 and 10 % (deep_sleep/wnm_sleep, one capture each, 10 s interval), 5 % between them,
+# 20 % the 10 % point plus the rise of hw_table.txt; send times and late replies from hw_table.txt
+# p  e_udp  e_tcp  e_tcpr  d_tcp  d_tcpr  late
+0.000 66.702 84.807 97.532 0.0610 0.1230 0.0000
+0.050 66.671 99.918 108.840 0.2790 0.5120 0.0138
+0.100 66.641 115.028 120.148 0.4980 0.8830 0.0402
+0.200 66.650 125.210 132.824 1.0650 1.7510 0.1074

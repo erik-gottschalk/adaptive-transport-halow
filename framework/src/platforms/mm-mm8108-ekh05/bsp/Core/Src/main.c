@@ -690,7 +690,7 @@ static void MX_GPIO_Init(void)
   LL_GPIO_ResetOutputPin(GPIOE, GPIO_LED_GREEN_Pin|GPIO_LED_BLUE_Pin|GPIO_LED_RED_Pin|RESET_N_Pin);
 
   /**/
-  LL_GPIO_ResetOutputPin(GPIOA, MM_DEBUG_1_Pin|MM_DEBUG_0_Pin);
+  LL_GPIO_ResetOutputPin(GPIOA, MM_DEBUG_1_Pin|MM_DEBUG_0_Pin|MM_DEBUG_2_Pin);
 
   /**/
   LL_GPIO_ResetOutputPin(GPIOD, WAKE_Pin|BLE_RESET_N_Pin);
@@ -708,7 +708,7 @@ static void MX_GPIO_Init(void)
   LL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
   /**/
-  GPIO_InitStruct.Pin = QSPI_FLASH_CS_Pin|MM_DEBUG_1_Pin|MM_DEBUG_0_Pin;
+  GPIO_InitStruct.Pin = QSPI_FLASH_CS_Pin|MM_DEBUG_1_Pin|MM_DEBUG_0_Pin|MM_DEBUG_2_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
   GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;

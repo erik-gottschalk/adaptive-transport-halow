@@ -1,0 +1,3 @@
+[submodule "examples/adaptive_transport/scripts/eval/measurement_data"]
+	path = examples/adaptive_transport/scripts/eval/measurement_data
+	url = ../adaptive-transport-halow-data

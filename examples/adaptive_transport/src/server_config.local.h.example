@@ -1,0 +1,6 @@
+/*
+ * The receiver's address for the firmware. Copy to server_config.local.h (gitignored) next to this
+ * file and set it to the host that runs scripts/server.py; adaptive_transport.c includes it if it
+ * exists. The ports are fixed in adaptive_transport.c (64015, UDP and TCP).
+ */
+#define TCP_TARGET_IP_STR "192.0.2.1"

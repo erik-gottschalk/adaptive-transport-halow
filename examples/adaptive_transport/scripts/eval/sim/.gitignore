@@ -1,0 +1,8 @@
+# built by build.sh, and the simulation cache; opt_out/rerun_window_ge/ holds the paper's outputs
+atc_hook.c
+atc_hook.o
+sim_opt
+opt_out/*
+!opt_out/rerun_window_ge/
+!opt_out/t3_mac_retry/
+!opt_out/t3_mac_retry.log

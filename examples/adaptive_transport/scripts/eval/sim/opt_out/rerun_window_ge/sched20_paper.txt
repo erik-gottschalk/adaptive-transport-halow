@@ -1,0 +1,15 @@
+== Table S7 row: hardware schedule, i.i.d.
+  no debt    loss/L 0.76  >1.5L 17.9% (0.17851)  saving 33.7%
+  firmware   loss/L 0.66  >1.5L 2.5% (0.02454)  saving 31.1%
+  oracle     loss/L 0.69  >1.5L 2.8% (0.02831)  saving 38.1%
+== Table S7 row: hardware schedule, bursts
+  no debt    loss/L 0.76  >1.5L 21.2% (0.21222)  saving 33.8%
+  firmware   loss/L 0.63  >1.5L 6.4% (0.06373)  saving 30.1%
+  oracle     loss/L 0.70  >1.5L 8.5% (0.08515)  saving 38.1%
+== Table params, schedule columns: 2->20 loss/L, reaction, UDP/f_opt in the last 2 % phase
+  T=20 Ta=10     1.31  39 s  0.80
+  T=20 Ta=20     1.33  40 s  0.83
+  T=20 Ta=40     1.36  47 s  0.85
+  T=20 Ta=off    1.44  70 s  0.85
+  T=10 Ta=20     1.35  28 s  0.84
+  T=40 Ta=20     1.44  92 s  0.78

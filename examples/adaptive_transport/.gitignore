@@ -1,0 +1,6 @@
+# Local lab settings (templates: scripts/lab.env.example, scripts/ap_credentials.example.py,
+# src/server_config.local.h.example)
+scripts/lab.local.env
+scripts/ap_credentials.py
+src/server_config.local.h
+release/*.local.json

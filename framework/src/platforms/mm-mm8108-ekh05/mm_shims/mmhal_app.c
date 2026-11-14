@@ -181,6 +181,18 @@ void mmhal_set_debug_pins(uint32_t mask, uint32_t values)
             LL_GPIO_ResetOutputPin(MM_DEBUG_1_GPIO_Port, MM_DEBUG_1_Pin);
         }
     }
+
+    if (mask & MMHAL_DEBUG_PIN(2))
+    {
+        if (values & MMHAL_DEBUG_PIN(2))
+        {
+            LL_GPIO_SetOutputPin(MM_DEBUG_2_GPIO_Port, MM_DEBUG_2_Pin);
+        }
+        else
+        {
+            LL_GPIO_ResetOutputPin(MM_DEBUG_2_GPIO_Port, MM_DEBUG_2_Pin);
+        }
+    }
 }
 
 bool mmhal_get_hardware_version(char *version_buffer, size_t version_buffer_length)

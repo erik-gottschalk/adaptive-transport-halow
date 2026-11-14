@@ -1,0 +1,14 @@
+== interval: loss/L, saving vs plain TCP (1 s energies | WNM-sleep energies)
+     1 s  loss/L 0.68   saving  25.6% |  17.3%
+    10 s  loss/L 0.87   saving  21.1% |  14.7%
+    30 s  loss/L 0.92   saving  19.9% |  13.9%
+    60 s  loss/L 0.95   saving  19.1% |  13.4%
+   300 s  loss/L 0.97   saving  17.9% |  12.6%
+
+== Table S3, controller (WNM): dE / (E_TCP + P_s (tau - 10 s)) [%]
+  interval     +0 uA   +10 uA  +100 uA
+       60 s     13.3     13.2     11.6
+      300 s     12.3     11.4      6.7
+      600 s     12.1     10.3      4.5
+     3600 s     10.2      5.4      1.0
+    86400 s      1.9      0.4      0.0

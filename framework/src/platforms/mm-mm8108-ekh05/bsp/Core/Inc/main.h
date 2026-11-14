@@ -116,6 +116,8 @@ void MX_SPI2_Init(void);
 #define MM_DEBUG_1_GPIO_Port GPIOA
 #define MM_DEBUG_0_Pin LL_GPIO_PIN_10
 #define MM_DEBUG_0_GPIO_Port GPIOA
+#define MM_DEBUG_2_Pin LL_GPIO_PIN_0
+#define MM_DEBUG_2_GPIO_Port GPIOA
 #define WAKE_Pin LL_GPIO_PIN_0
 #define WAKE_GPIO_Port GPIOD
 #define SPI_SCK_Pin LL_GPIO_PIN_1

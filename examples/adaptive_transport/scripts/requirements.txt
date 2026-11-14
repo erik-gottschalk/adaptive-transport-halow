@@ -1,0 +1,11 @@
+# Python 3.8.10 (the versions every result of the paper was computed with).
+#   python3 -m venv .venv && .venv/bin/pip install -r examples/adaptive_transport/scripts/requirements.txt
+# Analysis and simulation (scripts/eval/analysis, scripts/eval/sim)
+numpy==1.24.4
+pandas==2.0.3
+matplotlib==3.7.5
+scipy==1.10.1
+# Testbed (run_power_experiment.py, channel_scheduler.py: PPK2, serial console, SSH)
+paramiko==3.5.1
+pyserial==3.5
+ppk2-api==0.9.2

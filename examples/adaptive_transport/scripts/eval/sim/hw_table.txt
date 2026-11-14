@@ -1,0 +1,6 @@
+# sim_opt HW_TABLE from baselines/ (hw_table.py, p <= 20 %)
+# p  e_udp  e_tcp  e_tcpr  d_tcp  d_tcpr  late   [mJ per attempt; s beyond the interval]  reps
+0.000 14.066 24.448 28.331 0.061 0.123 0.0000  # 3 rep(s)
+0.050 14.018 28.486 34.187 0.279 0.512 0.0138  # 3 rep(s)
+0.100 14.035 32.435 40.117 0.498 0.883 0.0402  # 3 rep(s)
+0.200 14.044 42.617 52.793 1.065 1.751 0.1074  # 3 rep(s)

@@ -1,0 +1,2 @@
+bursty binding cell, final firmware model, 1 h: loss/L 0.993  saving 11.1%
+bursty binding cell, final firmware model, 24 h: loss/L 0.990  saving 11.1%

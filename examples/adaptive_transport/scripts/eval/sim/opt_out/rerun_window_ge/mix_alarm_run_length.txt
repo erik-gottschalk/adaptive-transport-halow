@@ -1,0 +1,6 @@
+  4 h   firmware       1.035L (se 0.007) saving 42.5%   fixed schedule 1.091L (se 0.007) saving 42.7%
+  8 h   firmware       1.007L (se 0.005) saving 42.5%   fixed schedule 1.049L (se 0.005) saving 42.6%
+ 12 h   firmware       0.996L (se 0.004) saving 42.4%   fixed schedule 1.030L (se 0.004) saving 42.6%
+ 24 h   firmware       0.987L (se 0.003) saving 42.4%   fixed schedule 1.012L (se 0.003) saving 42.5%
+ 48 h   firmware       0.981L (se 0.002) saving 42.4%   fixed schedule 1.005L (se 0.002) saving 42.5%
+168 h   firmware       0.979L (se 0.001) saving 42.4%   fixed schedule 0.998L (se 0.001) saving 42.5%
